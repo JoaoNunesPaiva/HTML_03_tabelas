@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid green;
+    padding-inline: 5px;
+}
+caption{
+    font-size: larger;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+/* comentário */ 
