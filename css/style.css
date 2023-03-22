@@ -1,15 +1,49 @@
 table {
     border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
 }
-th, td {
-    border-bottom: 1px solid black;
-    border-right: 1px solid green;
-    padding-inline: 5px;
+
+th, td{
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+td{
+    border-bottom: 1px solid cadetblue;
+    border-right: 1px solid cadetblue;
+}
+td:first-child{
+    border-left: 1px solid cadetblue;
+}
+th:first-child{
+    text-align: left;
 }
 caption{
     font-size: larger;
     font-weight: bold;
-    border: 1px solid black;
+    padding: 10px;
+    color: #395870;
+}
+thead {
+    background: #395870;
+    color: #fff;
+}
+tbody tr:nth-child(even) {
+background: grey;
+}
+
+tfoot {
+    text-align: right;
+}
+
+tfoot tr:last-child{
+    background: #f0f0f2;
+}
+.item-price{
+    text-align: right;
+}
+.quantity{
+    text-align: center;
 }
 
 
